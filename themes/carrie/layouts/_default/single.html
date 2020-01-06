@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+{{ partial "head.html" . }}
+
+<body>
+    {{ partial "header.html" . }}
+    {{ $baseurl := .Site.BaseURL }}
+    <div class="container {{ .Params.emojiClass }}">
+        <div class="row">
+            <div class="col-1">
+                <div id="todo-date" class="left-top">
+                    <h1>{{ .Title }}</h1>
+                </div>
+                <div id="go-back" class="left-bottom">
+                        <h2><a href="/">Go Back</a></h2>
+                </div>
+            </div>
+            <div class="col-3 right-side">
+                <article class="list-container" id="to-do-list">{{ .Content }}</article>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>

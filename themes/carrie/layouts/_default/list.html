@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+{{ partial "head.html" . }}
+
+<body>
+    {{ partial "header.html" . }}
+    <div class="container">
+        <div class="row">
+            <div class="col-1">
+                <div id="todo-date" class="left-top">
+                    <h1>Daily To-Dos!</h1>
+                </div>
+                <div id="go-back" class="left-bottom">
+                    <h2><a href="/">Go Back</a></h2>
+                </div>
+
+            </div>
+            <div class="col-3 right-side">
+                <article class="list-container">
+                    <ul id="list-of-lists">
+                        {{ range first 5 .Data.Pages.ByDate.Reverse }}
+                        <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+                        {{ end }}
+                    </ul>
+                </article>
+
+            </div>
+        </div>
+    </div>
+    {{ partial "footer.html" }}
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "MASE To Dos"
+theme = "carrie"
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  
+[params]
+  titleEmoji = ":tada:"
+  # change this!
+  twitter = "go_carrie_go"
+
+[Permalinks]
+  post = "todos/:slug"
+
+[[params.menu]]
+  name = "todos"
+  url = "todos/"
+
+[[params.menu]]
+  name = "post series"
+  url = "series/"
+  
+
+[[params.menu]]
+  name = "about"
+  url = "about/"
+  
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    respectDoNotTrack = true
+    useSessionStorage = true
+  [privacy.twitter]
+    enableDNT = true
+  [privacy.youtube]
+    privacyEnhanced = true

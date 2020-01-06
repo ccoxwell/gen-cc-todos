@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+{{ partial "head.html" . }}
+
+<body>
+    {{ partial "header.html" . }}
+    <div class="container">
+        <div class="row">
+            <div class="col-1">
+                <a href="{{ .Site.BaseURL  }}">{{ .Site.Title  }}</a>
+            </div>
+            <div class="col-3">
+                <ul>
+                    {{ range .Data.Pages.ByDate.Reverse }}
+                    <li>
+                        <a href="{{ .Permalink }}">{{ .Title }}</a>
+                    </li>
+                    {{ end }}
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</html>

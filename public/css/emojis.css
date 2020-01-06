@@ -1,0 +1,23 @@
+.emoji-kokoken li::before {
+  content: "\1F49C";
+}
+
+.emoji-mr-maden li::before {
+  content: "\1F92C";
+}
+
+.emoji-shunterria li::before {
+  content: "\1F970";
+}
+
+.emoji-andrea li::before {
+  content: "\1F49B";
+}
+
+.emoji-jayron li::before {
+  content: "\1F602";
+}
+
+.emoji-landon li::before {
+  content: "\1F451";
+}
