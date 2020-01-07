@@ -1,0 +1,44 @@
+.left-bottom {
+    background: #E9B000;
+}
+
+.left-bottom, .left-bottom a {
+    color: #333;
+}
+
+.left-top {
+    background: #E52A6F;
+}
+
+.row {
+    background: #675682;
+}
+
+a {
+    color: #fff;
+}
+
+body {
+  color: #fff;
+  background-color: #675682;
+  font-family: Nunito, arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Staatliches", Georgia, serif;
+}
+
+@media (min-width: 849px) {
+    body {
+        background-color: #67AECA;
+    }
+}
+
+li.complete {
+    text-decoration-color: #E52A6F;
+}

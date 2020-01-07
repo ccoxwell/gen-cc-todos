@@ -1,0 +1,197 @@
+/* COLORS!
+Blue Topaz: #67AECA
+Amethyst:   #675682
+Jewel:      #5F0F4E
+Rose:       #E52A6F
+Mustard:    #E9B000
+END COLORS! */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default padding */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-size: 24px;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+  margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* CSS files add styling rules to your content */
+
+body {
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+li:not(:last-child) {
+  margin-bottom: 1em;
+}
+
+#go-back a::before {
+  content: "\2b05";
+  display: inline-block;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+li::before {
+  text-decoration: none;
+  width: 1em;
+}
+
+li {
+  text-indent: -1em;
+}
+
+li::before {
+  content: "\1F308";
+  display: inline-block;
+}
+
+#to-do-list li:hover {
+  cursor: pointer;
+  text-decoration: line-through;
+}
+
+li.complete {
+  text-decoration: line-through;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  flex: 1 1 100%;
+}
+
+.col-1,
+.col-3 {
+  flex: 0 0 100%;
+}
+
+.col-1 {
+  text-align: right;
+}
+
+.col-1 div {
+  padding: 0.5em;
+}
+
+.list-container {
+  padding: 0.5em;
+}
+/* glitch button */
+.glitchButton {
+  position:fixed;
+  top:20px;
+  left:20px;
+}
+@media (min-width: 849px) {
+  
+  .col-1, #go-back, #todo-date{
+    display: flex;
+  }
+  #go-back, #todo-date {
+    flex-direction: column;
+    flex: 1;
+    justify-content: center;
+    padding-right: 2em;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+  }
+  .col-1 {
+    flex: 0 0 50%;
+    flex-flow: column;
+  }
+  .col-3 {
+    flex: 0 0 50%;
+    padding-left: 1em;
+  }
+  /* glitch button */
+  .glitchButton {
+    position:fixed;
+    top:20px;
+    right:20px;
+  }
+}
+

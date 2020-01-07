@@ -1,0 +1,50 @@
+.left-bottom {
+    background: #ff6554;
+}
+
+.left-bottom, .left-bottom a {
+    color: #ffffff;
+}
+
+.left-top {
+    background: #ff8c80;
+}
+
+.row {
+    background: #ff6969
+}
+
+a {
+    color: #ffffff;
+}
+
+body {
+  color: #ffffff
+  background-color: #ffffff;
+  font-family: Nunito, arial, sans-serif;
+  color:#ffffff
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Staatliches", Georgia, serif;
+}
+
+@media (min-width: 849px) {
+    body {
+        background-color: #ffffff;
+    }
+}
+
+li.complete {
+    text-decoration-color: #ffff;
+}
+
+li::before {
+  content: "\1F9E1";
+  display: inline-block;
+}

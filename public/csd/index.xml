@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Csds on MASE To Dos</title>
+    <link>/csd/</link>
+    <description>Recent content in Csds on MASE To Dos</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 06 Jan 2020 06:57:30 -0600</lastBuildDate>
+    
+	<atom:link href="/csd/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Monday, January 6, 2020</title>
+      <link>/csd/post/01-06-2020/</link>
+      <pubDate>Mon, 06 Jan 2020 06:57:30 -0600</pubDate>
+      
+      <guid>/csd/post/01-06-2020/</guid>
+      <description> Complete and turn in your Do Now Review classroom expectations and agreements Discuss the big questions for Unit 3 Discuss 2Gen Review variables and sprites as a class Complete and turn in your Exit Ticket  </description>
+    </item>
+    
+  </channel>
+</rss>

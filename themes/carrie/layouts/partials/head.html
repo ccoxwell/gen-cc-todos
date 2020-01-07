@@ -7,6 +7,9 @@
 <link rel="stylesheet" href="/css/style.css" />
 <link rel="stylesheet" href="/css/colors.css" />
 <link rel="stylesheet" href="/css/emojis.css" />
+{{ if not (eq .Params.studentCss "")}}
+<link rel="stylesheet" href="{{ .Params.studentCss}}">
+{{ end }}
 <link rel="icon" href="/assets/rainbow_1f308.png" />
 
 <!-- import the webpage's javascript file -->
