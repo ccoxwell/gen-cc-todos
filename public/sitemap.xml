@@ -3,21 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/csd/post/2020-01-21/</loc>
-    <lastmod>2020-01-20T14:12:26-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/csdwa/post/2020-01-21/</loc>
-    <lastmod>2020-01-20T14:12:26-06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/csp/post/2020-01-21/</loc>
-    <lastmod>2020-01-20T14:12:26-06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/csd/</loc>
     <lastmod>2020-01-20T14:12:26-06:00</lastmod>
   </url>
@@ -34,6 +19,21 @@
   
   <url>
     <loc>/</loc>
+    <lastmod>2020-01-20T14:12:26-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/csd/post/2020-01-21/</loc>
+    <lastmod>2020-01-20T14:12:26-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/csdwa/post/2020-01-21/</loc>
+    <lastmod>2020-01-20T14:12:26-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/csp/post/2020-01-21/</loc>
     <lastmod>2020-01-20T14:12:26-06:00</lastmod>
   </url>
   

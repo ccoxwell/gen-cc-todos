@@ -1,5 +1,7 @@
 #!/bin/bash
 
+hugo
+
 git add .
 git commit -m "recent lists"
 git push
