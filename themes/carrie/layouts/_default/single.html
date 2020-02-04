@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html>
+
+<html class="student">
 
 {{ partial "head.html" . }}
 
@@ -18,6 +19,13 @@
             </div>
             <div class="col-3 right-side">
                 <article class="list-container" id="to-do-list">{{ .Content }}</article>
+                {{ if not (eq .Params.studentCss "") }}
+                <label class="switch" id="style-control">
+                    <input class="switch-input" type="checkbox" id="switch-checkbox" checked />
+                    <span class="switch-label" data-on="On" data-off="Off"></span> 
+                    <span class="switch-handle"></span> 
+                </label>
+                {{ end }}
             </div>
         </div>
     </div>

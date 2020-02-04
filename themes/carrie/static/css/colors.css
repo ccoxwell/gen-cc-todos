@@ -1,26 +1,32 @@
 .left-bottom {
     background: #E9B000;
+    transition: background 0.5s ease;
 }
 
 .left-bottom, .left-bottom a {
     color: #333;
+    transition: color 0.5s ease;
 }
 
 .left-top {
     background: #E52A6F;
+    transition: background 0.5s ease;
 }
 
 .row {
     background: #675682;
+    transition: background 0.5s ease;
 }
 
 a {
     color: #fff;
+    transition: color 0.5s ease;
 }
 
 body {
   color: #fff;
   background-color: #675682;
+  transition: background-color 0.5s ease;
   font-family: Nunito, arial, sans-serif;
 }
 
@@ -36,9 +42,11 @@ h6 {
 @media (min-width: 849px) {
     body {
         background-color: #67AECA;
+        transition: background-color 0.5s ease;
     }
 }
 
 li.complete {
     text-decoration-color: #E52A6F;
+    transition: text-decoration-color 0.5s ease;
 }

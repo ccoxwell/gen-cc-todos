@@ -1,50 +1,59 @@
-.left-bottom {
+.student {
+}
+.student .left-bottom {
     background: #ff6554;
+    transition: background 0.5s ease;
 }
 
-.left-bottom, .left-bottom a {
+.student .left-bottom, #student .left-bottom a {
     color: #ffffff;
+    transition: color 0.5s ease;
 }
 
-.left-top {
+.student .left-top {
     background: #ff8c80;
+    transition: background 0.5s ease;
 }
 
-.row {
-    background: #ff6969
+.student .row {
+    background: #ff6969;
+    transition: background 0.5s ease;
 }
 
-a {
+.student a {
     color: #ffffff;
+    transition: color 0.5s ease;
 }
 
-body {
-  color: #ffffff
+.student body {
+  color: #ffffff;
   background-color: #ffffff;
+  transition: background-color 0.5s ease;
   font-family: Nunito, arial, sans-serif;
-  color:#ffffff;
+  transition: color 0.5s ease;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.student h1,
+.student h2,
+.student h3,
+.student h4,
+.student h5,
+.student h6 {
   font-family: "Staatliches", Georgia, serif;
 }
 
 @media (min-width: 849px) {
-    body {
+    .student body {
         background-color: #ffffff;
+        transition: background-color 0.5s ease;
     }
 }
 
-li.complete {
-    text-decoration-color: #ffff;
+.student li.complete {
+    text-decoration-color: #ffffff;
 }
 
-li::before {
+.student li::before {
   content: "\1F9E1";
   display: inline-block;
 }

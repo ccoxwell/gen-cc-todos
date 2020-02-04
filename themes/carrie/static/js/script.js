@@ -2,10 +2,20 @@ let mushroom = new Audio("/assets/smb_powerup.wav");
 let powerDown = new Audio("/assets/smb_pipe.wav");
 let stageClear = new Audio("/assets/smb_stage_clear.wav");
 let previousAudio = mushroom;
+const styleSwitch = document.getElementById("switch-checkbox");
+let isStudentStyleEnabled = false;
 
 [mushroom, powerDown, stageClear].map(audio => audio.volume = 0.1);
 
 document.addEventListener("DOMContentLoaded", setUpDOM);
+styleSwitch.addEventListener("change", function() {
+  console.log(this.checked);
+  if (this.checked) {
+    document.querySelector("html").classList.add("student");
+  } else {
+    document.querySelector("html").classList.remove("student");
+  }
+});
 
 function setUpDOM() {
   let listItems = Array.from(document.querySelectorAll("#to-do-list li"));
@@ -41,4 +51,10 @@ function setUpDOM() {
       }
     });
   }
+}
+
+function toggleStyle() {
+  const htmlEl = document.getElementsByTagName("html")[0];
+  const checkbox = document.querySelector("#switch-checkbox");
+  htmlEl.classList.toggle("student");
 }
