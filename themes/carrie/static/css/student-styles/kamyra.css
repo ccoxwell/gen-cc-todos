@@ -1,0 +1,58 @@
+.student .left-bottom {
+    background: #FF9166;
+}
+
+.student .left-bottom, .student .left-bottom a {
+    color: #67AECA;
+}
+
+.student .left-top {
+    background: #E8E551;
+}
+
+.student .row {
+    background: #9351E8;
+}
+
+.student a {
+    color: #fff;
+}
+
+.student body {
+  color: ;
+  background-color: #E8E551;
+  font-family: Nunito, arial, sans-serif;
+}
+
+.student h1,
+.student h2,
+.student h3,
+.student h4,
+.student h5,
+.student h6 {
+  font-family: "Staatliches", Georgia, serif;
+}
+
+@media (min-width: 849px) {
+    .student body {
+      background-color: #67AECA;
+      text-decoration: underline;
+      color: #FF9166;
+      
+    }
+}
+
+.student li.complete {
+    text-decoration-color: #E52A6F;
+  
+}
+
+.student li::before {
+  content: "\2728";
+  display: inline-block;
+}
+
+.student li {
+  background-color:  #E8E551;
+  
+}
