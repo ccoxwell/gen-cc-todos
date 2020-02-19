@@ -12,6 +12,7 @@ git pull
 cd -
 
 cp -r public/. ../codecrew-todos
+cd ../codecrew-todos
 git add .
 git commit -m "recent lists"
 git push
