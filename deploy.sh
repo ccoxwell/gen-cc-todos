@@ -6,9 +6,12 @@ git add .
 git commit -m "recent lists"
 git push
 
-cp -r public/. ../codecrew-todos
 cd ../codecrew-todos
-git pull
+git pull 
+
+cd -
+
+cp -r public/. ../codecrew-todos
 git add .
 git commit -m "recent lists"
 git push
