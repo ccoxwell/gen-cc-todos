@@ -13,6 +13,7 @@ cd -
 
 cp -r public/. ../codecrew-todos
 cd ../codecrew-todos
+git checkout glitch
 git add .
 git commit -m "recent lists"
 git push
