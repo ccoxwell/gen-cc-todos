@@ -1,0 +1,51 @@
+.student .left-bottom {
+    background: #E3FFAD;
+  }
+  
+ .student  .left-bottom,
+.student   .left-bottom a {
+    color: #333;
+  }
+  
+.student   .left-top {
+    background: #FFADC9;
+  }
+  
+ .student  .row {
+    background: #ABA9EB;
+  }
+  
+.student   a {
+    color: #fff;
+  }
+  
+ .student  body {
+    color: #fff;
+    background-color: #ADFFE8;
+    font-family: Nunito, arial, sans-serif;
+  }
+  
+ .student  h1,
+.student   h2,
+.student   h3,
+.student   h4,
+.student   h5,
+.student   h6 {
+    font-family: "Staatliches", Georgia, serif;
+  }
+  
+  @media (min-width: 849px) {
+   .student  body {
+      background-color: #ADFFE8;
+    }
+  }
+  
+ .student  li.complete {
+    text-decoration-color: #7A9CC6;
+  }
+  
+ .student  li::before {
+    content: "\2728";
+    display: inline-block;
+  }
+  
